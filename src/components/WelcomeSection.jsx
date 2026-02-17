@@ -15,6 +15,7 @@ function WelcomeSection({ onCreateSession }) {
               </div>
               <h1 className="text-5xl font-black bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
                 Welcome back, {user?.firstName || "there"}!
+                console.log(import.meta.env.VITE_API_URL);
               </h1>
             </div>
             <p className="text-xl text-base-content/60 ml-16">
