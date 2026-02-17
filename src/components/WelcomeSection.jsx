@@ -38,3 +38,6 @@ function WelcomeSection({ onCreateSession }) {
 }
 
 export default WelcomeSection;
+
+console.log(import.meta.env.VITE_API_URL);
+
